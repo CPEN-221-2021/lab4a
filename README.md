@@ -18,7 +18,7 @@ git commit -m "Added README"
 git push origin b1
 ```
 
-- Now, from the parent directory for `lab4a`, clone branch `b1` of your repository using the command: `git clone -b b1 <https://github.com/CPEN-221-2020/><your-repo> lab4a1` which will clone the repo in a local directory `lab4a1`. (This would allow the two cloned repositories to be on the same machine, if necessary.)
+- Now, from the parent directory for `lab4a`, clone branch `b1` of your repository using the command: `git clone -b b1 <https://github.com/CPEN-221-2021/><your-repo> lab4a1` which will clone the repo in a local directory `lab4a1`. (This would allow the two cloned repositories to be on the same machine, if necessary.)
 - In the `lab4a1` directory, add the following line to `README.txt`: `Hello from Lab4a1`. Then commit and push the change to Github.
 - In the `lab4a` directory, add the following line to `README.txt`: `Hello from Lab4a.` Commit this change and execute a `pull`: `git pull`
 - Git will indicate that there is a merge conflict.
